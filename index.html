@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>APOD Nasa</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="universe.png">
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="universe.png"></h1>
+            <h2>Astronomy Picture of the Day</h2>
+        </div>
+    </header>
+
+    <main>
+        <div class="data">
+            <label for="date">Selecione uma data:</label>
+            <input type="date" id="data" name="data" value="date">
+        </div>
+        <div class="escopo">
+            <div class="texto invisivel">
+                <h3 id="textoPrincipal"></h3>
+                <p id="textoSecundario"></p>
+            </div>
+            <div id="imagem" class="classImg"></div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="rodape">
+            <img src="universe.png">
+            <p class="copyright">&copy; APOD BAF - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

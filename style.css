@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+    
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFFFF;
+}
+    
+header {
+    background-color: #9DA9A0;
+    display: flex;
+}
+
+.caixa {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 125px;
+    width: 125px;
+    align-items: center;
+    padding: 20px;
+}
+
+header h2 {
+    font-size: 30px;
+    color: #000000;
+    font-weight: 600;
+    padding: 50px;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+p .descricao {
+    display: flex;
+    font-size: 10px;
+    font-style: italic;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    background-color: #9DA9A0;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 0;
+}
+
+.rodape {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    height: 85px;
+    width: 85px;
+    align-items: center;
+    padding: 30px;
+}
+
+.copyright {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+    padding: 50px;
+}
