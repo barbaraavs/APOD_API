@@ -1,11 +1,6 @@
 // jQuery
-// $ ('button').click (function (){
-
-//   console.log ('caiu')
 
 $ ('#date').on ('change', function (){
-
-  console.log ('caiu2')
 
   var data = $('#date').val();
 
@@ -16,8 +11,6 @@ $ ('#date').on ('change', function (){
       'date': data},
 
     'success': function (resultado) {
-
-      console.log (resultado)
 
       $ ('div').removeClass ('invisivel')
       $ ('#textoPrincipal').html (`${resultado.title}`)
@@ -30,6 +23,5 @@ $ ('#date').on ('change', function (){
         $ ('#imagem').html (`<iframe class = "imagem" scr = "${resultado.url}">`)
         }
       } 
-   
 })
 })
