@@ -16,19 +16,20 @@
     </header>
 
     <main>
-        <div class="data">
+        <div class="informacoes">
             <label for="date">Selecione uma data:</label>
-            <input type="date" id="data" name="data" value="date">
+            <input class="date" id="date" type="date" required>
         </div>
-        <div class="escopo">
+        <div class="escopo invisivel">
             <div class="texto invisivel">
                 <h3 id="textoPrincipal"></h3>
                 <p id="textoSecundario"></p>
             </div>
-            <div id="imagem" class="classImg"></div>
+            <iframe class="classVideo invisivel" id="video" src="" allowfullscreen></iframe>
+            <div class="classImg invisivel" id="imagem"></div>
         </div>
     </main>
-    
+
     <footer>
         <div class="rodape">
             <img src="universe.png">
@@ -36,6 +37,7 @@
         </div>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
 
 </body>
