@@ -7,7 +7,8 @@ $ ('#date').on ('change', function (){
   $.ajax ({
     'url': 'https://api.nasa.gov/planetary/apod',
     'data': {
-      'api_key':'DEMO_KEY',
+      'api_key':'bT20vygzcYZv5zK9a1bWk4JWbc3bOYpcCbNeAtCH',
+      // 'api_key':'DEMO_KEY',
       'date': data},
 
     'success': function (resultado) {
@@ -17,10 +18,10 @@ $ ('#date').on ('change', function (){
       $ ('#textoSecundario').html (`${resultado.explanation}`)
 
         if (resultado.media_type === 'image') {
-          $ ('#imagem').html (`<img class = "imagem" scr = "${resultado.url}">`)
+          $ ('#conteudo').html (`<img class = "classImagem" scr = "${resultado.url}">`)
         }
         else if (resultado.media_type === 'video'){
-        $ ('#imagem').html (`<iframe class = "imagem" scr = "${resultado.url}">`)
+        $ ('#conteudo').html (`<iframe class = "classImagem" scr = "${resultado.url}">`)
         }
       } 
 })
