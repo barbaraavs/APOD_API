@@ -5,17 +5,18 @@
     
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #FFFFFF;
+    background-image: url(fundo.jpg);
+    background-size: 100%;
 }
     
 header {
-    background-color: #9DA9A0;
+    background-color: #1A1B41;
     display: flex;
 }
 
 .caixa {
     position: relative;
-    width: 1200px;
+    width: 900px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -31,20 +32,80 @@ header img {
 
 header h2 {
     font-size: 30px;
-    color: #000000;
+    color: #D3D4D9;
     font-weight: 600;
     padding: 50px;
 }
 
 main {
-    margin: 20px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
 }
 
-p .descricao {
+label {
+    font-size: 15px;
+    font-weight: bolder;
+    color: #D3D4D9;
+    border: 2px solid;
+    background-color: #1A1B41;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.date {
+    font-family: 'Montserrat', sans-serif;
+    width: 150px;
+    height: 20px;
+    margin: 10px;
+    padding: 10px;
+    border: #1A1B41 2px solid;
+    border-radius: 5px;
+    color: #1A1B41;
+    font-weight: bolder;
+}
+
+.escopo {
     display: flex;
-    font-size: 10px;
-    font-style: italic;
+    position: relative;
+    width: 50%;
+    height: 80%;
+    padding: 20px;
+    background-color: #1A1B41;
+    color: #D3D4D9;
+    border-radius: 10px;
+    animation: 1.5s;
+    opacity: 0.85;
+}
+
+.invisivel {
+    display: none;
+}
+
+h3 #textoPrincipal {
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+p #textoSecundario {
+    font-size: 20px;
+}
+
+.classImg {
+    width: 20vw;
+    height: 200px;
+    border: 2px solid #D3D4D9;
+    border-radius: 10px;
+    animation: efeito 1.5s;
+}
+
+div #imagem {
+    width: 50%;
+    height: 300px;
 }
 
 footer {
@@ -52,14 +113,14 @@ footer {
     align-items: center;
     position: relative;
     justify-content: center;
-    background-color: #9DA9A0;
+    background-color: #1A1B41;
     font-family: 'Montserrat', sans-serif;
     padding: 10px 0;
 }
 
 .rodape {
     position: relative;
-    width: 1200px;
+    width: 900px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -67,15 +128,15 @@ footer {
 }
 
 footer img {
-    height: 85px;
-    width: 85px;
+    height: 30px;
+    width: 30px;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
 }
 
 .copyright {
-    font-size: 18px;
-    color: #000000;
+    font-size: 12px;
+    color: #D3D4D9;
     font-weight: 600;
     padding: 50px;
 }
