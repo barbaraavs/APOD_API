@@ -18,10 +18,10 @@ $ ('#date').on ('change', function (){
       $ ('#textoSecundario').html (`${resultado.explanation}`)
 
         if (resultado.media_type === 'image') {
-          $ ('#conteudo').html (`<img class = "classImagem" scr = "${resultado.url}">`)
+          $ ('#conteudo').html (`<img class= "classImg" src = "${resultado.url}" width="640" height="360">`)
         }
         else if (resultado.media_type === 'video'){
-        $ ('#conteudo').html (`<iframe class = "classImagem" scr = "${resultado.url}">`)
+        $ ('#conteudo').html (`<iframe class= "classImg" src = "${resultado.url}" width="640" height="360">`)
         }
       } 
 })
